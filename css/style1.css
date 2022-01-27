@@ -66,6 +66,8 @@ h2 {
 
 #tools {
   background-color: #d5d6d2;
+  display: flex;
+  flex-direction: coloumn;
   font-family: "Marcellus", serif;
 }
 
