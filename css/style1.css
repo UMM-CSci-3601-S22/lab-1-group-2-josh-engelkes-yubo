@@ -100,26 +100,27 @@ img.pic {
   width: 100%;
   border: 4px solid #000000;
 }
-/*
-.version-control { class for 'git', GitHub, and GitKraken
-  color:
+
+.version-control { /*class for 'git', GitHub, and GitKraken*/
+  font-family: "Marcellus", serif;
 }
 
-.ide { class for Visual Studio Code
-
+.ide { /*class for Visual Studio Code*/
+  font-family: "Marcellus", serif;
 }
 
-.testing { class for JUnit, Karma, Cypress, and GitHub Actions
-
+.testing { /*class for JUnit, Karma, Cypress, and GitHub Actions*/
+  font-family: "Marcellus", serif;
 }
 
-.cloud { class for GitHub.com and GitHub Actions
-
+.cloud { /*class for GitHub.com and GitHub Actions*/
+  font-family: "Marcellus", serif;
 }
 
-.local { class for all but GitHub.com and GitHub Actions
+.local { /*class for all but GitHub.com and GitHub Actions*/
+  font-family: "Marcellus", serif;
 }
-*/
+
 
 #style-selector {
   position: fixed;
