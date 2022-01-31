@@ -65,7 +65,7 @@ h2 {
 }
 
 #tools {
-  background-color: #d5d6d2;
+  background-color: #c4cefd;
   font-family: "Marcellus", serif;
 }
 
@@ -115,10 +115,12 @@ img.pic {
 
 .cloud { /*class for GitHub.com and GitHub Actions*/
   font-family: "Marcellus", serif;
+  background-color: cadetblue;
 }
 
 .local { /*class for all but GitHub.com and GitHub Actions*/
   font-family: "Marcellus", serif;
+  background-color: #ffde7a;
 }
 
 
