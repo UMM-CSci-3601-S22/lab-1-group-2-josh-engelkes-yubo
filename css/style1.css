@@ -52,7 +52,7 @@ h2 {
 }
 
 #pslo {
-  background-color: #d5d6d2;
+  background-color: #d5d6d2Cocontributter;
   font-family: "Marcellus", serif;
 }
 
@@ -65,9 +65,7 @@ h2 {
 }
 
 #tools {
-  background-color: #d5d6d2;
-  display: flex;
-  flex-direction: coloumn;
+  background-color: #c4cefd;
   font-family: "Marcellus", serif;
 }
 
@@ -105,14 +103,17 @@ img.pic {
 
 .version-control { /*class for 'git', GitHub, and GitKraken*/
   font-family: "Marcellus", serif;
+  background-color: cadetblue;
 }
 
 .ide { /*class for Visual Studio Code*/
   font-family: "Marcellus", serif;
+  background-color: #ffde7a;
 }
 
 .testing { /*class for JUnit, Karma, Cypress, and GitHub Actions*/
   font-family: "Marcellus", serif;
+  background-color: #c4cefd
 }
 
 .cloud { /*class for GitHub.com and GitHub Actions*/
