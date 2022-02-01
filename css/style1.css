@@ -103,24 +103,25 @@ img.pic {
 
 .version-control { /*class for 'git', GitHub, and GitKraken*/
   font-family: "Marcellus", serif;
+  background-color: cadetblue;
 }
 
 .ide { /*class for Visual Studio Code*/
   font-family: "Marcellus", serif;
+  background-color: #ffde7a;
 }
 
 .testing { /*class for JUnit, Karma, Cypress, and GitHub Actions*/
   font-family: "Marcellus", serif;
+  background-color: #c4cefd
 }
 
 .cloud { /*class for GitHub.com and GitHub Actions*/
   font-family: "Marcellus", serif;
-  background-color: cadetblue;
 }
 
 .local { /*class for all but GitHub.com and GitHub Actions*/
   font-family: "Marcellus", serif;
-  background-color: #ffde7a;
 }
 
 
