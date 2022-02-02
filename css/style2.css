@@ -8,5 +8,139 @@ use float to make something locate itself on the right or left
 
 body {
   padding: 30px;
-  background-color: #ffffff;
+  background-color: #25908d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+#main-title {
+  color: #ffffff;
+  font-family: "Arial", serif;
+  text-align: center;
+  font-size: 6rem;
+  /* The main title selector shows that the selected color of the
+  title is white and the font is arial from the font family serif.
+  The title is also centered and the font size is 6rem. */
+}
+
+h2 {
+  font-family: "Arial", serif;
+}
+
+.section { /* Here is an example of a class. */
+  border-radius: 25px;
+  padding: 20px;
+  border: 10px groove #ffffff;
+  margin: 20px;
+  max-width: 48em;
+  font-size: 14px
+}
+
+#courses, #pslo { /* This is an example of grouping. */
+  background-color: #15213E;
+  font-family: "Times New Roman", serif;
+  /* This selector shows that the item with the id courses or pslo
+  has a dark blue background and contains text with the Times New Roman font. */
+}
+
+#tools { /*Here is an example of an id.*/
+  background-color: #15213E;
+  font-family: "Times New Roman", serif;
+}
+
+#faculty {
+  background-color: #15213E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+#faculty > ul > li {
+  display: inline-block;
+  padding: 30px;
+}
+
+#faculty-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  /* This selector shows that the item with the id faculty-list has entries
+  lined up in a row, with entries that don't fit in the row being moved under to
+  continue the process. The content is centered horizontally and vertically. */
+}
+
+.name {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+}
+
+.office {
+  font-family: "Times New Roman", serif;
+  font-size: 18px;
+}
+
+img.pic {
+  width: 110%;
+  border: 4px groove #ffffff;
+}
+
+.office > .version-control {
+  background-color: #97B999;
+}
+
+.office > .ide {
+  background-color: #4d3263;
+}
+
+.testing {
+  font-family: "Times New Roman", serif;
+  background-color: #9ed4cd;
+  /* This selector shows that anything with the class testing
+  has a light-green background and contains text with the Times New Roman font.
+  These differences in background color separates the testing tools from the
+  ide and version-control tools. */
+}
+
+.cloud, .local {
+  font-family: "Times New Roman", serif;
+}
+
+#style-selector ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #15213E;
+  border: 4px groove #ffffff
+  /* This selector shows the item with the id style-selector in a
+  unnumbered list has no margin or padding, with the overflow entries being hidden.
+  the background color is dark blue, the same color as the sections. The border is
+  4 pixels, grooved, and white. */
+}
+
+#style-selector li {
+  float: left;
+}
+
+#style-selector li a {
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#style-selector li a:hover {
+  background-color: #000;
+}
+
+#validation {
+  background-color: #15213E;
+  border: 4px groove #ffffff;
+  padding: 25px;
 }
