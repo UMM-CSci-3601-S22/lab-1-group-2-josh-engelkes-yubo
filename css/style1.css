@@ -12,6 +12,7 @@ body {
   flex-direction: column; /* this says how the flex items will align (e.g. 'row') */
   align-items: center; /* These next two properties center the flex items */
   justify-content: center;
+  color: black;
 }
 
 /*
@@ -52,7 +53,7 @@ h2 {
 }
 
 #pslo {
-  background-color: #d5d6d2Cocontributter;
+  background-color: #d5d6d2;
   font-family: "Marcellus", serif;
 }
 
@@ -81,7 +82,7 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap; /* This tell's the flex items to wrap if there
                       isn't enough space for all of the items. Without this the
-                      faculty images will be in a row and only resize well unitl around
+                      faculty images will be in a row and only resize well until around
                       550px width of screen. */
   justify-content: center;
   align-content: center;
@@ -103,7 +104,7 @@ img.pic {
 
 .version-control { /*class for 'git', GitHub, and GitKraken*/
   font-family: "Marcellus", serif;
-  background-color: cadetblue;
+  background-color: #7a0019;
 }
 
 .ide { /*class for Visual Studio Code*/
